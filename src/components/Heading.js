@@ -7,11 +7,11 @@ const Heading = () => {
         <div data-aos="fade-up">
           <img
             className="w-30 h-30 rounded-full object-cover md:p-10 p-10"
-            src={gambar}
+            src={gambar}  
             alt="Descriptive alt text"
           />
         </div>
-        <div className="flex flex-col justify-center items-center md:items-start md:pt-60 pt-10">
+        <div className="flex flex-col justify-center items-center md:items-start md:pt-60">
           <div className="md:text-1xl">
             <div className="md:text-6xl text-center mb-4 md:mb-8">Halo nama saya Zaldi</div>
             <a
