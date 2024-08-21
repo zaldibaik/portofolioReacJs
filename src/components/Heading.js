@@ -12,7 +12,7 @@ const Heading = () => {
         </div>
         <div className="flex justify-center item center md:pt-60">
           <div className="md:text-1xl">
-            <div className="mt-5 md:text-6xl text-center">Halo nama saya Zaldi</div>
+            <div className="md:text-6xl text-center">Halo nama saya Zaldi</div>
             <a
               href="./Pdf/CV.pdf"
               download="CV.pdf"
