@@ -12,10 +12,12 @@ const Heading = () => {
         </div>
         <div className="flex justify-center item center text-center md:pt-60">
           <div className="md:text-6xl h1">
-            {" "}
-            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-              View My CV
-            </button>
+            <a
+              href="./Pdf/CV.pdv"
+              download="CV.pdf"
+              className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" >
+              Download CV
+            </a>
             <div className="mt-5">halo nama saya Zaldi</div>
           </div>
         </div>
