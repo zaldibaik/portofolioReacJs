@@ -2,7 +2,7 @@ import gambar from "./img/img.png";
 
 const Heading = () => {
   return (
-    <div className=" flex justify-center min-h-screen text-center">
+    <div id="home" className=" flex justify-center min-h-screen text-center">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         <div data-aos="fade-up">
           <img
