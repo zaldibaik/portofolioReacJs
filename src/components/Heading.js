@@ -6,7 +6,7 @@ const Heading = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         <div data-aos="fade-up">
           <img
-            className="w-30 h-30 rounded-full object-cover md:p-3 p-20"
+            className="w-30 h-30 rounded-full object-cover md:p-10 p-20"
             src={gambar}
             alt="Descriptive alt text"
           />
