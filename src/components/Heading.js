@@ -10,13 +10,13 @@ const Heading = () => {
             src={gambar}
           />
         </div>
-        <div className="flex justify-center item center md:pt-60">
+        <div className="flex justify-center item center md:pt-60 pt-5">
           <div className="md:text-1xl">
             <div className="md:text-6xl text-center">Halo nama saya Zaldi</div>
             <a
               href="./Pdf/CV.pdf"
               download="CV.pdf"
-              className="md:text-3xl bg-blue-500 hover:bg-blue-700 text-white font-bold px-2 rounded" >
+              className="md:text-3xl w-3  bg-blue-500 hover:bg-blue-700 text-white font-bold py-1 px-2 rounded" >
               Download CV
             </a>
           </div>
