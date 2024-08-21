@@ -13,7 +13,7 @@ const Heading = () => {
         <div className="flex justify-center item center text-center md:pt-60">
           <div className="md:text-6xl h1">
             <a
-              href="./Pdf/CV.pdv"
+              href="./Pdf/CV.pdf"
               download="CV.pdf"
               className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" >
               Download CV
