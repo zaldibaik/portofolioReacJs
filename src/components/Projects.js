@@ -5,7 +5,7 @@ const Projects = () => {
     <section id="projects" className="bg-gray-100 p-10">
       <div className="container mx-auto">
         <h2 className="text-4xl font-bold text-gray-800 mb-4">
-          Projects Designer Grafish
+          Projects Graphic Designer
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           <div
