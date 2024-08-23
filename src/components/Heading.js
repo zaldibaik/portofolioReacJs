@@ -4,7 +4,7 @@ const Heading = () => {
   return (
     <div id="home" className="flex justify-center min-h-screen text-center">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-        <div data-aos="fade-up">
+        <div data-aos="zoom-in">
           <img
             className="w-30 h-30 rounded-full object-cover md:p-10 p-10"
             src={gambar}  
@@ -13,7 +13,7 @@ const Heading = () => {
         </div>
         <div className="flex flex-col justify-center items-center md:items-start md:pt-60">
           <div className="md:text-1xl">
-            <div className="md:text-6xl text-center mb-4 md:mb-8">Halo nama saya Zaldi</div>
+            <div className="md:text-6xl font-bold text-center mb-4 md:mb-8">Halo nama saya Zaldi</div>
             <a
               href="./Pdf/CV.pdf"
               download="CV.pdf"

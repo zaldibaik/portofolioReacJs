@@ -24,9 +24,9 @@ root.render(
                   <li>
                     <Link to="/">Home</Link>
                   </li>
-                  <li>
+                  {/* <li>
                     <Link to="/login">Login-Zaldi</Link>
-                  </li>
+                  </li> */}
                 </ul>
               </nav>
             </div>
