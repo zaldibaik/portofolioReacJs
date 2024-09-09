@@ -28,12 +28,22 @@ const Contact = () => {
   return (
     <section
       id="contact"
-      className="bg-gray-900 text-white p-10"
+      className="relative text-white p-10 bg-gray-900"
       data-aos="fade-up"
     >
       <h2 className="text-4xl font-bold mb-4 text-center">Contact Me</h2>
 
-      <div className="container mx-auto grid grid-cols-1 md:grid-cols-1 gap-4">
+      <div className="absolute top-0 left-0 right-0">
+        <svg className="w-full" viewBox="0 0 1440 320">
+          <path
+            fill="#111827"
+            fillOpacity="1"
+            d="M0,224L48,213.3C96,203,192,181,288,170.7C384,160,480,160,576,165.3C672,171,768,181,864,186.7C960,192,1056,192,1152,176C1248,160,1344,128,1392,112L1440,96L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"
+          ></path>
+        </svg>
+      </div>
+
+      <div className="container mx-auto grid grid-cols-1 gap-4 relative z-10">
         <ul>
           <li>Email: zaldizaldizaldi032@gmail.com</li>
           <li>
@@ -58,11 +68,9 @@ const Contact = () => {
             </a>
           </li>
         </ul>
-        <div
-          className="bg-white dark:bg-gray-900"
-          data-aos="fade-up"
-          data-aos-duration="3000"
-        >
+
+        {/* Form tanpa background */}
+        <div data-aos="fade-up" data-aos-duration="3000">
           <div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
             <p className="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">
               Ada yang Bisa saya bantu?
@@ -141,6 +149,17 @@ const Contact = () => {
             </form>
           </div>
         </div>
+      </div>
+
+
+      <div className="absolute bottom-0 left-0 right-0">
+        <svg className="w-full" viewBox="0 0 1440 320">
+          <path
+            fill="#ffffff"
+            fillOpacity="1"
+            d="M0,128L48,160C96,192,192,256,288,266.7C384,277,480,235,576,218.7C672,203,768,213,864,192C960,171,1056,117,1152,101.3C1248,85,1344,107,1392,117.3L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+          ></path>
+        </svg>
       </div>
     </section>
   );

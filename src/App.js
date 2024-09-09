@@ -6,6 +6,8 @@ import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
+
+
 function App() {
   const [data, setData] = useState(null); // State untuk menyimpan data dari API
   const [loading, setLoading] = useState(true); // State untuk mengelola loading state
@@ -40,7 +42,6 @@ function App() {
         <Contact />
         <Footer />
       </main>
-      {loading ? <p>Loading...</p> : data ? <p>{data.message}</p> : <p>No data available.</p>}
     </div>
   );
 }
